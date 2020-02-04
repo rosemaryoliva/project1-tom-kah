@@ -20,17 +20,21 @@ body
 {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
     font-size: 16px;
-    color: #555;
+    color: #736F5F;
+    background-color: #FFEFE4;
+}
+h1, h2{
+    font-family: 'Shadows Into Light', cursive;
 }
 
 h1,
 h2,
 h3
 {
-    color: #238acb;
+    color: #A66641;
 }
 
 h3
@@ -56,6 +60,11 @@ pre
     background: #646464;
 }
 
+img{
+    height: 20px;
+    width: 20px;
+}
+
 .header
 {
     position: fixed;
@@ -64,7 +73,7 @@ pre
     height: 70px;
     width: 100%;
     overflow: hidden;
-    background: #238acb;
+    background: #3E400B;
     z-index: 1000;
 }
 
@@ -99,7 +108,7 @@ pre
 {
     z-index: 500;
     top: 150px;
-    width: 6000px;
+    width: 12000px;
 }
 
 .intro
@@ -108,7 +117,7 @@ pre
     left: 500px;
     top: 0px;
     padding-right: 50px;
-    background: url('../images/scroll.png') no-repeat right 5px;
+   
 }
 
 .page
@@ -142,6 +151,11 @@ pre
 {
     width: 500px;
     left: 5100px;
+}
+.foo
+{
+    width: 500px;
+    left: 6400px;
 }
 
 .license
