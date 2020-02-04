@@ -20,14 +20,19 @@ body
 {
     padding: 0;
     margin: 0;
-    font-family: 'Darker Grotesque', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    color: #736F5F;
-    background-color: #FFEFE4;
+    background-color: #EADCFF;
 }
 h1, h2{
     font-family: 'Shadows Into Light', cursive;
+
+}
+h1{
+    font-size: 80px;
+    float: left;
+    
+
 }
 
 h1,
@@ -60,10 +65,11 @@ pre
     background: #646464;
 }
 
-img{
-    height: 20px;
-    width: 20px;
+.soup-bowl{
+    rotate: 30deg;
+    padding-top: -30px;
 }
+
 
 .header
 {
@@ -114,9 +120,10 @@ img{
 .intro
 {
     position: absolute;
-    left: 500px;
+    left: 100px;
     top: 0px;
     padding-right: 50px;
+    color: #3E400B;
    
 }
 
@@ -132,7 +139,8 @@ img{
 
 .description
 {
-    left: 1500px;
+    left: 1300px;
+    max-width: 200px;
 }
 
 .documentation
