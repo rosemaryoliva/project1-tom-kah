@@ -2,6 +2,8 @@
 body
 {
     overflow-x: hidden;
+    background-image: url("../images/wood.jpg");
+    background-size: 100%;
 }
 
 /**
@@ -79,6 +81,7 @@ text {
 
 .soup-bowl{
    margin-left: 200px;
+  bottom: 40px;
 }
 .hide {
     display: none;
@@ -108,6 +111,122 @@ text {
 
 }
 
+.lemongrass-1{
+    left: 2050px;
+    top: 250px;
+    position: absolute;
+
+}
+.lemongrass-2{
+    left: 2008px;
+    top: 275px;
+    position: absolute;
+
+}
+
+.garlic{
+    left: 2008px;
+    top: 100px;
+    position: absolute;
+
+}
+
+.ginger{
+    left: 1850px;
+    top: 20px;
+    position: absolute;
+}
+
+.step-1-onion{
+    left: 3050px;
+    top: 20px;
+    position: absolute;
+}
+.step-1-oniongrey{
+    left: 2930px;
+    top: -110px;
+    position: absolute;
+}
+
+.pot-1{
+    left: 4500px;
+    top: 10px;
+    position: absolute;
+}
+.pot-2{
+    left: 4500px;
+    top: 10px;
+    position: absolute;
+}
+
+/* Essential CSS - Makes the effect work */
+
+
+.center-outer {
+display: table;
+width: 100%;
+height: 100%;
+}
+
+.center-inner {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+
+.bubbles {
+height: 100px;
+width: 100px;
+background-color:none;
+left: 4700px;
+bottom: 700px;
+margin: 20px;
+display: inline-block;
+position: relative;
+}
+
+.individual-bubble {
+position: absolute;
+border-radius: 100%;
+bottom: 10px;
+background-color: #fff;
+z-index: 1;
+}
+
+/* Essential CSS - Makes the effect work */
+.pot{
+    left: 3200px;
+    top: 10px;
+    position: absolute;
+}
+.heat{
+    left: 4500px;
+    top: 200px;
+    position: absolute;
+}
+.heat-1{
+    left: 3200px;
+    top: 200px;
+    position: absolute;
+}
+
+.step-1-ginger{
+    left: 2800px;
+    top: -60px;
+    position: absolute;
+}
+
+.step-1-lemongrass{
+    left: 2800px;
+    top: 100px;
+    position: absolute;
+}
+
+.step-1-curry{
+    left: 3000px;
+    top: 110px;
+    position: absolute;
+}
 .header
 {
     position: fixed;
@@ -183,12 +302,12 @@ display: none;
 .documentation
 {
     left: 2450px;
-    width: 700px;
+    width: 300px;
 }
 
 .options
 {
-    width: 700px;
+    width: 300px;
     left: 3800px;
 }
 
@@ -206,4 +325,50 @@ display: none;
 .license
 {
     padding: 100px 30px 30px 30px;
+}
+
+
+
+
+
+
+
+
+/* steam animation */
+
+
+.steam-1, .steam-2, .steam-3 {
+  left: 3200px;
+  top: 10px;
+  position: absolute;
+  width: 10px;
+  background: #F5F0F0;
+  opacity: 1;
+  border-radius: 50% 0%;
+  animation-name: steam;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.steam-1 {
+  top: 2px;
+  left: 3400px;
+  height: 40px;
+}
+
+.steam-2 {
+  top: 2px;
+  left: 3600px;
+  height: 40px;
+}
+
+.steam-3 {
+  top: 2px;
+  left: 3500px;
+  height: 40px;
+}
+
+@keyframes steam {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
