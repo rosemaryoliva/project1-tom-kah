@@ -35,7 +35,6 @@ h1{
 
 }
 
-h1,
 h2,
 h3
 {
@@ -45,16 +44,23 @@ h3
 h3
 {
     margin: 10px 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
 }
 
 a
 {
     color: #238acb;
+    font-family: 'DM Sans', sans-serif;
 }
 
 a img
 {
     border: none;
+}
+
+br, p {
+    font-family: 'DM Sans', sans-serif;
 }
 
 pre
@@ -65,11 +71,42 @@ pre
     background: #646464;
 }
 
-.soup-bowl{
-    rotate: 30deg;
-    padding-top: -30px;
+
+text {
+  font-family: 'Shadows Into Light', cursive;
+  position: absolute;
 }
 
+.soup-bowl{
+   margin-left: 200px;
+}
+.hide {
+    display: none;
+}
+
+.mushroom{
+    left: 1700px;
+    top: 22px;
+    position: absolute;
+    
+}
+.mushroom-first{
+    left: 1680px;
+    top: 10px;
+    position: absolute;
+}
+.mushroom-third{
+    left: 1680px;
+    top: 15px;
+    position: absolute;
+}
+
+.onion{
+    left: 1750px;
+    top: 250px;
+    position: absolute;
+
+}
 
 .header
 {
@@ -92,8 +129,7 @@ pre
 
 .header .credits
 {
-    float: right;
-    padding-top: 15px;
+display: none;
 }
 
 .horizon
@@ -134,12 +170,13 @@ pre
     background: white;
     padding: 10px 30px;
     border: 1px #eee solid;
+    border-radius: 12%;
     position: absolute;
 }
 
 .description
 {
-    left: 1300px;
+    left: 1400px;
     max-width: 200px;
 }
 

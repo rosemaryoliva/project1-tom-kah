@@ -9,34 +9,35 @@
 	<link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
-
-	<div class="container">
-  <div class="header">
-    <div class="logo">
-      <a href="//jInvertScroll">
-      </a>
-    </div>
-
-    <div class="credits">
-      <a href="http://www.pixxelfactory.net">
-      </a>
-    </div>
-  </div>
 
   <div class="horizon scroll">
   </div>
 
   <div class="middle scroll">
   </div>
+  <svg viewBox="0 0 500 500">
+  
+  <svg viewBox="0 0 500 500">
+  <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+  <text width="500">
+    <textPath xlink:href="#curve">
+      Learn to make Tom Kah!
+    </textPath>
+  </text>
+</svg>
+</svg>
 
   <div class="front scroll">
     
-    <h1 class="intro">Learn How to Make Tom Kah Soup!</h1>
+  
+
     <div class="soup-bowl">
-      <img src="images/bowl-of-soup.png">
+      <img src="images/bowl-of-soup.png" height="600">
     </div>
 
     <div class="description page">
@@ -49,18 +50,64 @@
         What do we need?
         <br/> 
         <br/>
-        <hr style="border:none; border-bottom: 1px #ddd solid;" /> Note:
-        <br/> By using this plugin, we expect that you know the limitations of horizontal parallax scrolling, for instance if the screen height is smaller than the content, the content will be clipped, but this plugin is intended anyway for webdesigners and
-        -developers, so we think that you know what you're doing. ;-)
-      </p>
-    </div>
-    <div>
-      
-    </div>
+        <h3>
+        <hr style="border:none; border-bottom: 1px #ddd solid;" /> Ingredients:
+        <br/>
+        <br>
+        - Mushrooms 
+        <br>
+        - Onions
+        <br>
+        - Garlic
+        <br>
+        - Ginger
+        <br>
+        -Lime
+        <br>
+        - Lemongrass
+        <br>
+        - Seraños 
+        <br>
+        - Chicken
+        </p>
+    </h3>
+    </div class="prep">
+    
+    <div class="food-item mushroom" id="food-item4">
+         <img src="images/mushroom-4.png" height="150">
+      </div> 
+      <div class="food-item mushroom-first" id="food-item3">
+        <img src="images/mushroom-3.png" height="175">
+      </div>
+      <div class="food-item mushroom-third" id="food-item2">
+        <img src="images/mushroom-2.png" height="195">
+      </div>
+      <div class="food-item mushroom mushroom-first" id="food-item1">
+        <img src="images/mushroom-1.png" height="200">
+      </div>
+
+       <div class="onion-item onion" id="onion-item4">
+         <img src="images/onion-4.png" height="300">
+      </div> 
+      <div class="onion-item onion" id="onion-item3">
+        <img src="images/onion-3.png" height="300">
+      </div>
+      <div class="onion-item onion" id="onion-item2">
+        <img src="images/onion-2.png" height="300">
+      </div>
+      <div class="onion-item onion" id="onion-item1">
+        <img src="images/onion-1.png" height="300">
+      </div>
+
+
+</p>
+</div>
+</div>
+</div>
 
     <div class="documentation page">
       <h2>Step 1.</h2>
-      <p>
+      <h3><p>
         1.) Include the css file, jQuery and the Plugin
         <br/> 2.) Create the desired elements that you want to scroll (You can create normal divs, that contain other elements, images, videos...)
         <br/> 3.) Assign following attributes to the elements you just created:
@@ -71,6 +118,7 @@ width: xxxxpx;	// I recommend to assign the width in px, prevents preloading iss
         <br/> 4.) Order the layers via z-index (Note that it is recommended that the front layers are wider than the ones in the back) 5.) In your javascript, use this code (the selectors refer to the elements that you desire to be scrolled):
         <pre>$.jInvertScroll(['yourselector1', 'yourselector2'...]);</pre>
       </p>
+       </h3>
     </div>
 
     <div class="options page">
@@ -115,16 +163,19 @@ width: xxxxpx;	// I recommend to assign the width in px, prevents preloading iss
       </p>
     </div>
   </div>
- <div class="foo page">boop
-   <img src="http://htp.cats/100">
-</div>
+
+
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/jquery.jInvertScroll.min.js"></script>
-<script src="javascript.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
   
+ <script>
+  
+
+  </script>
 </body>
 
 </html>
